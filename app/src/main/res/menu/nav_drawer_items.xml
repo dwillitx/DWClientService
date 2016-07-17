@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_action_chat"
+            android:title="Chat" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_action_rating"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_social"
+            android:icon="@drawable/ic_action_socialmedia"
+            android:title="Social Media" />
+
+    </group>
+
+    <item android:title="SCIS Programs">
+        <menu>
+            <item
+                android:id="@+id/nav_grad_prg"
+                android:icon="@drawable/ic_action_grad"
+                android:title="Graduate Program" />
+            <item
+                android:id="@+id/nav_under_prg"
+                android:icon="@drawable/ic_action_undergrad"
+                android:title="UnderGraduate Program" />
+
+            <item
+                android:id="@+id/nav_certificate"
+                android:icon="@drawable/ic_action_certificates"
+                android:title="Certificates" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DW Client Service</string>
+    <string name="action_graduate_program">Graduate</string>
+    <string name="action_undergraduate_program">Undergraduate</string>
+    <string name="menu_chat">Chat</string>
+    <string name="search_value_setting">Search</string>
+    <string name="action_feedback_rating">Feedback</string>
+    <string name="action_social_media">Social Media</string>
+    <string name="search_hint">Search</string>
+    <string name="navigation_icon_description">Back Arrow</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="logo_description">Regis SCIS</string>
+    <string name="data_error">No Data has been fetched</string>
+    <string name="action_certificate">Certificates</string>
+</resources>

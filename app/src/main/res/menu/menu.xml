@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/menu_graduate_prg"
+        android:orderInCategory="1"
+        android:title="@string/action_graduate_program"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_undergraduate_prg"
+        android:orderInCategory="100"
+        android:title="@string/action_undergraduate_program"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_chat"
+        android:orderInCategory="2"
+        android:icon="@mipmap/ic_launcher_chat"
+        android:title="@string/menu_chat"
+        app:showAsAction="ifRoom|collapseActionView|withText"/>
+
+    <item
+        android:id="@+id/menu_search"
+        android:orderInCategory="3"
+        android:title="@string/search_value_setting"
+        android:icon="@drawable/ic_action_search"
+        app:showAsAction="ifRoom|collapseActionView|withText"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+
+    <item
+        android:id="@+id/menu_feedback_rating"
+        android:orderInCategory="2"
+        android:title="@string/action_feedback_rating"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_social_media"
+        android:orderInCategory="2"
+        android:title="@string/action_social_media"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_certificates"
+        android:orderInCategory="1"
+        android:title="@string/action_certificate"
+        app:showAsAction="never" />
+
+
+
+    </menu>

@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="darin.com.dwclientservice.MainActivity"
+    tools:showIn="@layout/app_bar_layout">
+
+
+    <ImageView
+       android:id="@+id/imageGrad"
+        android:src="@mipmap/ic_gradtext"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/my_action_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageUGrad"
+        android:src="@mipmap/ic_undergrad"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/imageGrad"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imageCert"
+        android:src="@mipmap/ic_certificate_text"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/imageUGrad"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
